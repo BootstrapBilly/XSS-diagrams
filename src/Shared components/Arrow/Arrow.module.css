@@ -1,5 +1,6 @@
 .arrow{
     height: 150px;
     transform: rotate(-35deg);
+    margin: 0 70px;
     margin-top: 80px;
 }

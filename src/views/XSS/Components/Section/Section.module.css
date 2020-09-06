@@ -5,14 +5,21 @@
     transform-origin: right top;
     position: relative;
     right:135vh;
-    top:1110px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .inner_container{
-    width:100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (min-width: 1600px){
+
+    .container{
+
+        right:145vh;
+    }
 }
