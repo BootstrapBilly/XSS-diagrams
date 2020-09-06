@@ -4,7 +4,7 @@ import React from 'react';
 import classes from './App.module.css';
 
 //routes
-import XSS from "./views/XSS/XSS.jsx"
+import XSS from "./views/XSS/XSS"
 
 const App = () => {
 

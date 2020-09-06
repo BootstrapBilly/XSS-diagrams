@@ -9,21 +9,20 @@ import Arrow from "../../../../Shared components/Arrow/Arrow"
 
 type props = {
 
-    laptop_margin_left?: string//margin left for laptop screens
-    desktop_margin_left?: string//margin left for desktop screens
+    margin_left?: string//margin left for laptop screens
 
     title:string//title of the section
 
-    graphic_1_src:string//first picture source - ("hacker") - dont put the full path, only image naame
+    graphic_1_src:string//first picture source - ("hacker") - dont put the full path, only image name
     graphic_2_src:string//second picture source
 
 }
 
-const Gets_script = ({ laptop_margin_left, desktop_margin_left, title, graphic_1_src, graphic_2_src }: props) => {
+const Gets_script = ({ margin_left, title, graphic_1_src, graphic_2_src }: props) => {
 
     const style = {
 
-        top: `${window.innerWidth > 1500 ? desktop_margin_left : laptop_margin_left}px`
+        top: `${margin_left}px`
 
     }
 
@@ -36,7 +35,9 @@ const Gets_script = ({ laptop_margin_left, desktop_margin_left, title, graphic_1
             <div className={classes.inner_container}>
 
                 <Graphic src={graphic_1_src} />
+
                 <Arrow />
+
                 <Graphic src={graphic_2_src} />
 
             </div>
