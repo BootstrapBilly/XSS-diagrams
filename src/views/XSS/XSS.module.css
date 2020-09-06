@@ -10,7 +10,7 @@
 .side_scroll_container {
     width: 80vh;
     background-color: white;
-    transform:rotate(-90deg) translateY(-945px);
+    transform:rotate(-90deg) translateY(-70vw);
     transform-origin: right top;
     overflow-y: auto;
     overflow-x: hidden;
