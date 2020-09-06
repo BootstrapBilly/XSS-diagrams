@@ -1,0 +1,15 @@
+html{
+    min-height: 100%;
+    width:100%;
+    background-color: #f2f3f4;
+    font-family: 'Coming Soon', cursive;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    overflow-x: auto;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}

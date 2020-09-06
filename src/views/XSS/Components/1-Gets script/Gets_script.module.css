@@ -1,0 +1,10 @@
+.container{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    background-color: rebeccapurple;
+    transform: rotate(90deg);
+    transform-origin: right top;
+    position: relative;
+    right:-80px
+}
