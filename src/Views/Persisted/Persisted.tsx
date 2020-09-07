@@ -2,10 +2,10 @@
 import React from 'react'
 
 //css
-import classes from './XSS.module.css'
+import classes from './Persisted.module.css'
 
 //components
-import Section from "./Components/Section/Section"
+import Section from "../../Shared components/Section/Section"
 
 const XSS = () => {
 

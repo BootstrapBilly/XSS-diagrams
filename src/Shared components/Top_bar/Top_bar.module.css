@@ -1,4 +1,11 @@
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button_container{
+    display: flex;
+    margin-top: 10px;
 }

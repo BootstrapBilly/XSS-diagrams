@@ -3,9 +3,9 @@ import React from 'react'
 import classes from './Section.module.css'
 
 //components
-import Text from "../../../../Shared components/Text/Text"
-import Graphic from "../../../../Shared components/Graphic/Graphic"
-import Arrow from "../../../../Shared components/Arrow/Arrow"
+import Text from "../../Shared components/Text/Text"
+import Graphic from "../../Shared components/Graphic/Graphic"
+import Arrow from "../../Shared components/Arrow/Arrow"
 
 type props = {
 
