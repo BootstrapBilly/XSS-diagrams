@@ -7,7 +7,7 @@ import classes from './Persisted.module.css'
 //components
 import Section from "../../Shared components/Section/Section"
 
-const XSS = () => {
+const Persisted = () => {
 
     return (
 
@@ -120,4 +120,4 @@ const XSS = () => {
 
 }
 
-export default XSS
+export default Persisted

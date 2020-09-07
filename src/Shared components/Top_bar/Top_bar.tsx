@@ -12,9 +12,7 @@ import { useSelector } from "react-redux"
 export const Top_bar = () => {
 
     //?selectors
-    const active_button = useSelector((state:any) => state.active_button.name)
-
-    console.log(active_button)
+    const active_button = useSelector((state:any) => state.active_button.name)//get the name of the currently active button from redux
 
     return (
 

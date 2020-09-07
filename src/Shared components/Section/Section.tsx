@@ -16,9 +16,11 @@ type props = {
     graphic_1_src:string//first picture source - ("hacker") - dont put the full path, only image name
     graphic_2_src:string//second picture source
 
+    with_script?:boolean//determine whether the arrow has a script underneath it
+
 }
 
-const Gets_script = ({ margin_left, title, graphic_1_src, graphic_2_src }: props) => {
+const Gets_script = ({ margin_left, title, graphic_1_src, graphic_2_src, with_script }: props) => {
 
     const style = {
 
@@ -36,7 +38,7 @@ const Gets_script = ({ margin_left, title, graphic_1_src, graphic_2_src }: props
 
                 <Graphic src={graphic_1_src} />
 
-                <Arrow />
+                <Arrow with_script={with_script}/>
 
                 <Graphic src={graphic_2_src} />
 

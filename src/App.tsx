@@ -8,6 +8,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom"
 
 //routes
 import Persisted from "./Views/Persisted/Persisted"
+import Reflected from "./Views/Reflected/Reflected"
 
 //components
 import TopBar from "./Shared components/Top_bar/Top_bar"
@@ -27,6 +28,7 @@ const App = () => {
         <Switch>
 
           <Route path="/" exact component={Persisted} />
+          <Route path="/reflected" exact component={Reflected} />
 
         </Switch>}
 
