@@ -41,6 +41,7 @@ const Persisted = () => {
                         title="Step Three : They insert their script into the form and submit it"
                         graphic_1_src="script"
                         graphic_2_src="form"
+                        with_script
 
                     />
 
@@ -50,6 +51,7 @@ const Persisted = () => {
                         title="Step Four : The form submits the data to the server (with the malicious script)"
                         graphic_1_src="form"
                         graphic_2_src="server"
+                        with_script
 
                     />
 
@@ -59,6 +61,7 @@ const Persisted = () => {
                         title="Step Five : The server saves the data (with the malicious script) inside the database"
                         graphic_1_src="server"
                         graphic_2_src="database"
+                        with_script
 
                     />
 
@@ -86,6 +89,7 @@ const Persisted = () => {
                         title="Step Eight : The database returns the data, including the hacker's malicious script"
                         graphic_1_src="database"
                         graphic_2_src="server"
+                        with_script
 
                     />
 
@@ -95,6 +99,7 @@ const Persisted = () => {
                         title="Step Nine : The data, along with the malcious script is sent to the user"
                         graphic_1_src="server"
                         graphic_2_src="shopper"
+                        with_script
 
                     />
 
