@@ -5,18 +5,13 @@ import React from 'react'
 import classes from './XSS.module.css'
 
 //components
-import Text from "../../Shared components/Text/Text"
 import Section from "./Components/Section/Section"
-
-
 
 const XSS = () => {
 
     return (
 
         <div className={classes.container}>
-
-            <Text text={"Persisted Cross Site Scripting explained"} mt={10} size={30} />
 
             <section className={classes.side_scroll_container}>
 
